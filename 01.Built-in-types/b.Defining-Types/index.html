@@ -1,0 +1,286 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>no title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    .markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}pre{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;direction:ltr;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;padding:1em;margin:.5em 0;overflow:auto;line-height:1.5;tab-size:4;hyphens:none;color:#2b3f6a;background-color:#eee9dd!important;border:#ddd3bb;border-radius:3px}pre[class*=language-]{padding:1em}code[class*=language-] .token.cdata,code[class*=language-] .token.comment,code[class*=language-] .token.doctype,code[class*=language-] .token.prolog,pre[class*=language-] .token.cdata,pre[class*=language-] .token.comment,pre[class*=language-] .token.doctype,pre[class*=language-] .token.prolog{color:#9ca3b0;font-style:italic}code[class*=language-] .token.punctuation,pre[class*=language-] .token.punctuation{color:#9ca3b0}code[class*=language-] .namespace,pre[class*=language-] .namespace{opacity:.7}code[class*=language-] .token.constant,pre[class*=language-] .token.constant{color:#c16161}code[class*=language-] .token.boolean,code[class*=language-] .token.function-name,code[class*=language-] .token.number,pre[class*=language-] .token.boolean,pre[class*=language-] .token.function-name,pre[class*=language-] .token.number{color:#c16161}code[class*=language-] .token.tag,pre[class*=language-] .token.tag{color:#ac4343}code[class*=language-] .token.symbol,pre[class*=language-] .token.symbol{color:#8f932b}code[class*=language-] .token.selector,pre[class*=language-] .token.selector{color:#d08e25}code[class*=language-] .token.attr-name,pre[class*=language-] .token.attr-name{color:#d08e25}code[class*=language-] .token.string,pre[class*=language-] .token.string{background-color:rgba(255,204,0,.03);color:rgba(106,68,28,.77)}code[class*=language-] .token.char,pre[class*=language-] .token.char{color:#8f932b}code[class*=language-] .token.url,pre[class*=language-] .token.url{color:#d08e25}code[class*=language-] .token.atrule,code[class*=language-] .token.attr-value,code[class*=language-] .token.keyword,pre[class*=language-] .token.atrule,pre[class*=language-] .token.attr-value,pre[class*=language-] .token.keyword{color:#8f932b}code[class*=language-] .token.function,pre[class*=language-] .token.function{color:#d08e25}code[class*=language-] .token.class-name,pre[class*=language-] .token.class-name{color:#2b3f6a}code[class*=language-] .token.variable,pre[class*=language-] .token.variable{color:#5e78e1}code[class*=language-] .token.important,code[class*=language-] .token.regex,pre[class*=language-] .token.important,pre[class*=language-] .token.regex{color:#379566}code[class*=language-] .token.bold,code[class*=language-] .token.important,pre[class*=language-] .token.bold,pre[class*=language-] .token.important{font-weight:700}code[class*=language-] .token.italic,pre[class*=language-] .token.italic{font-style:italic}code[class*=language-] .token.entity,pre[class*=language-] .token.entity{cursor:help}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}.emoji{height:.8em}body{font-size:16px;background-color:#f3f2ee;font-family:'PT Serif','Times New Roman',Times;color:#1f0909;line-height:1.5em}body ol,body ul{list-style:none}body blockquote,body q{quotes:none}body blockquote:after,body blockquote:before,body q:after,body q:before{content:'';content:none}body table{border-collapse:collapse;border-spacing:0}body h1,body h2,body h3,body h4,body h5,body h6{font-weight:700}body h1{font-size:1.875em;line-height:1.6em;margin-top:2em}body h2,body h3{font-size:1.3125em;line-height:1.15;margin-top:2.285714em;margin-bottom:1.15em}body h3{font-weight:400}body h4{font-size:1.125em;margin-top:2.67em}body h5,body h6{font-size:1em}body h1{border-bottom:1px solid;margin-bottom:1.875em;padding-bottom:.8125em}body a{text-decoration:none;color:#065588}body a:active,body a:hover{text-decoration:underline}body .md-fences,body blockquote,body p{margin-bottom:1.5em}body h1,body h2,body h3,body h4,body h5,body h6{margin-bottom:1.5em}body blockquote{font-style:italic;border-left:5px solid;margin-left:2em;padding-left:1em}body ol,body ul{margin:0 0 1.5em 1.5em}body ol li{list-style-type:decimal;list-style-position:outside}body ul li{list-style-type:disc;list-style-position:outside}body li>p{margin-top:0;margin-bottom:0}body .md-after,body .md-before,body .md-meta{color:#999}body table{margin-bottom:1.5em;font-size:1em}body tfoot th,body thead th{padding:.25em .25em .25em .4em;text-transform:uppercase}body th{text-align:left}body td{vertical-align:top;padding:.25em .25em .25em .4em}body .md-fences,body code{color:inherit;background-color:#dadada;padding-left:1ch;padding-right:1ch}body pre code{background-color:inherit}body .md-fences{margin-left:2em;margin-bottom:3em}body .md-fences .CodeMirror.CodeMirror-wrap{top:-.8em}body code,body pre,body tt{font-size:.875em;line-height:1.714285em}body h1{line-height:1.3em;font-weight:400;margin-bottom:.5em}body p+ol,body p+ul{margin-top:-1em}body h3+ol,body h3+ul,body h4+ol,body h4+ul,body h5+ol,body h5+ul,body h6+ol,body h6+ul{margin-top:.5em}body li>ol,body li>ul{margin-top:inherit}body h2,body h3{margin-bottom:.75em}body hr{border-top:none;border-right:none;border-bottom:1px solid;border-left:none}body h1{border-color:#c5c5c5}body blockquote{border-color:#bababa;color:#656565;background-color:#e6e4dc}body thead.md-table-edit{background-color:transparent}body thead{background-color:#dadada}body tr:nth-child(even){background:#e8e7e7}body hr{border-color:#c5c5c5}body .task-list{padding-left:1rem}body .task-list-item{list-style-type:none;margin-left:-1.8em}body .task-list-item .task-list-item-checkbox{margin-right:.8em}body .task-list-item input:before{content:'\221A';display:inline-block;width:1.25rem;height:1.5rem;vertical-align:middle;text-align:center;color:#ddd;background-color:#f3f2ee}body .task-list-item input:checked:before,body .task-list-item input[checked]:before{color:inherit}body img{max-width:100%}body kbd{color:#1f0909}
+    .markdown-preview.markdown-preview {
+  font-family: "Times New Roman", Times, serif;
+}
+/* ===========================
+   Áp dụng theme "Default Light Modern"
+   cho Markdown Preview (Crossnote)
+   =========================== */
+.markdown-preview.markdown-preview {
+  /* Nền & màu chữ chung */
+  background-color: #ffffff;
+  color: #3b3b3b;
+  /* Tiêu đề */
+  /* Đoạn văn */
+  /* Link */
+  /* Gạch ngang (hr) */
+  /* Danh sách */
+  /* Blockquote */
+  /* Bảng */
+  /* Code inline và code block */
+  /* Rất quan trọng: kết hợp selector anh đã ghi
+     .markdown-preview.markdown-preview .markdown-preview.markdown-preview code */
+  /* Text preformat (kiểu <pre> đặc biệt, nếu Crossnote dùng class riêng) */
+  /* Highlight (ví dụ khi search) – dùng gần với selectionHighlight */
+  /* Tooltip / Callout (nếu Crossnote dùng class tương tự) */
+  /* Badge / label nhỏ */
+  /* Nút (nếu dùng trong preview, ví dụ button trong HTML) */
+  /* Nút secondary (nếu có dùng) */
+}
+.markdown-preview.markdown-preview h1,
+.markdown-preview.markdown-preview h2,
+.markdown-preview.markdown-preview h3,
+.markdown-preview.markdown-preview h4,
+.markdown-preview.markdown-preview h5,
+.markdown-preview.markdown-preview h6 {
+  color: #1f1f1f;
+  border-color: #e5e5e5;
+}
+.markdown-preview.markdown-preview p {
+  color: #3b3b3b;
+  font-size: medium;
+}
+.markdown-preview.markdown-preview a {
+  color: #005fb8;
+  text-decoration: none;
+}
+.markdown-preview.markdown-preview a:hover,
+.markdown-preview.markdown-preview a:focus {
+  color: #0258a8;
+  text-decoration: underline;
+}
+.markdown-preview.markdown-preview hr {
+  border: 0;
+  border-top: 1px solid #e5e5e5;
+  margin: 1.5em 0;
+}
+.markdown-preview.markdown-preview ul,
+.markdown-preview.markdown-preview ol {
+  color: #3b3b3b;
+}
+.markdown-preview.markdown-preview blockquote {
+  background-color: #f8f8f8;
+  border-left: 4px solid #e5e5e5;
+  color: #3b3b3b;
+  margin: 1em 0;
+  padding: 0.6em 1em;
+}
+.markdown-preview.markdown-preview table {
+  border-collapse: collapse;
+  margin: 1em 0;
+  width: 100%;
+}
+.markdown-preview.markdown-preview table th,
+.markdown-preview.markdown-preview table td {
+  border: 1px solid #e5e5e5;
+  padding: 0.4em 0.6em;
+}
+.markdown-preview.markdown-preview table thead th {
+  background-color: #f8f8f8;
+  color: #1f1f1f;
+}
+.markdown-preview.markdown-preview code {
+  background-color: #f8f8f8;
+  color: #3b3b3b;
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+  border: 1px solid #e5e5e5;
+  font-family: "Intel One Mono";
+  font-size: small;
+}
+.markdown-preview.markdown-preview pre {
+  background-color: #f8f8f8;
+  color: #3b3b3b;
+  padding: 0.8em 1em;
+  border-radius: 4px;
+  border: 1px solid #e5e5e5;
+  overflow: auto;
+  font-family: "Intel One Mono";
+  font-size: small;
+}
+.markdown-preview.markdown-preview .markdown-preview.markdown-preview code {
+  background-color: #f8f8f8;
+  color: #3b3b3b;
+  border: 1px solid #e5e5e5;
+  font-size: small;
+}
+.markdown-preview.markdown-preview pre code {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+.markdown-preview.markdown-preview .text-preformat,
+.markdown-preview.markdown-preview .preformatted-text {
+  background-color: #0000001f;
+  color: #3b3b3b;
+}
+.markdown-preview.markdown-preview ::selection {
+  background-color: #add6ff80;
+}
+.markdown-preview.markdown-preview .callout,
+.markdown-preview.markdown-preview .admonition {
+  background-color: #f3f3f3;
+  border: 1px solid #e5e5e5;
+  padding: 0.8em 1em;
+  margin: 1em 0;
+}
+.markdown-preview.markdown-preview .badge,
+.markdown-preview.markdown-preview .label {
+  background-color: #cccccc;
+  color: #3b3b3b;
+  border-radius: 10px;
+  padding: 0.1em 0.6em;
+  font-size: 0.85em;
+}
+.markdown-preview.markdown-preview button,
+.markdown-preview.markdown-preview .btn {
+  background-color: #005fb8;
+  color: #ffffff;
+  border: 1px solid #0000001a;
+  padding: 0.4em 0.8em;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.markdown-preview.markdown-preview button:hover,
+.markdown-preview.markdown-preview .btn:hover {
+  background-color: #0258a8;
+}
+.markdown-preview.markdown-preview .btn-secondary {
+  background-color: #e5e5e5;
+  color: #3b3b3b;
+}
+.markdown-preview.markdown-preview .btn-secondary:hover {
+  background-color: #cccccc;
+}
+
+    </style>
+    
+    <!-- The content below will be included at the end of the <head> element. --><html><head><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body></body></html>
+  </head>
+  <body for="html-export">
+    <div class="crossnote markdown-preview">
+    <html><head></head><body><div>
+<h3 id="defining-types-định-nghĩa-kiểu-dữ-liệu" ebook-toc-level-3="" heading="Defining Types (Định nghĩa kiểu dữ liệu) ">Defining Types (Định nghĩa kiểu dữ liệu) </h3>
+<p>JavaScript cho phép áp dụng nhiều <strong>design pattern</strong> khác nhau trong quá trình thiết kế và tổ chức mã nguồn. Tuy nhiên, một số design pattern—đặc biệt là các pattern dựa trên hành vi động, chẳng hạn như <strong>dynamic programming</strong> hoặc thao tác cấu trúc dữ liệu thay đổi tại runtime—khiến cho việc <strong>suy luận kiểu tự động (type inference)</strong> trở nên khó khăn hoặc không khả thi.</p>
+<p>Để giải quyết các trường hợp này, TypeScript mở rộng cú pháp của JavaScript bằng cách cung cấp các vị trí rõ ràng, nơi lập trình viên có thể <strong>khai báo tường minh kiểu dữ liệu</strong>, giúp hệ thống type system hoạt động chính xác và chặt chẽ hơn.</p>
+<hr>
+<h3 id="suy-luận-kiểu-từ-object-literal" ebook-toc-level-3="" heading="Suy luận kiểu từ object literal ">Suy luận kiểu từ object literal </h3>
+<p>Khi khởi tạo một object literal, TypeScript có thể tự động suy luận <strong>shape (hình dạng)</strong> của object dựa trên các property và giá trị ban đầu.</p>
+<p>Ví dụ:</p>
+<pre data-role="codeBlock" data-info="ts" class="language-ts ts"><code><span class="token keyword keyword-const">const</span> user <span class="token operator">=</span> <span class="token punctuation">{</span>
+  name<span class="token operator">:</span> <span class="token string">"Hayes"</span><span class="token punctuation">,</span>
+  id<span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre><p>Trong trường hợp này, TypeScript suy luận rằng <code>user</code> là một object có:</p>
+<ul>
+<li><code>name</code> thuộc kiểu <code>string</code></li>
+<li><code>id</code> thuộc kiểu <code>number</code></li>
+</ul>
+<hr>
+<h3 id="mô-tả-shape-bằng-interface" ebook-toc-level-3="" heading="Mô tả shape bằng interface ">Mô tả shape bằng interface </h3>
+<p>Để mô tả tường minh cấu trúc của object, TypeScript cung cấp <strong>interface declaration</strong>. Interface dùng để định nghĩa chính xác tập hợp các property và kiểu dữ liệu tương ứng mà một object phải tuân theo.</p>
+<p>Ví dụ:</p>
+<pre data-role="codeBlock" data-info="ts" class="language-ts ts"><code><span class="token keyword keyword-interface">interface</span> <span class="token class-name">User</span> <span class="token punctuation">{</span>
+  name<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+  id<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><p>Interface trên định nghĩa một contract: bất kỳ object nào được xem là <code>User</code> đều phải có đúng hai property <code>name</code> và <code>id</code> với kiểu tương ứng.</p>
+<hr>
+<h3 id="gán-object-cho-interface" ebook-toc-level-3="" heading="Gán object cho interface ">Gán object cho interface </h3>
+<p>Sau khi khai báo interface, ta có thể chỉ định rằng một biến phải tuân theo interface đó bằng cách sử dụng cú pháp <code>: TypeName</code> sau tên biến:</p>
+<pre data-role="codeBlock" data-info="ts" class="language-ts ts"><code><span class="token keyword keyword-const">const</span> user<span class="token operator">:</span> User <span class="token operator">=</span> <span class="token punctuation">{</span>
+  name<span class="token operator">:</span> <span class="token string">"Hayes"</span><span class="token punctuation">,</span>
+  id<span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre><p>Tại đây, TypeScript sẽ kiểm tra <strong>tính tương thích cấu trúc (structural compatibility)</strong> giữa object literal và interface <code>User</code>.</p>
+<p>Nếu object không khớp với interface đã khai báo, TypeScript sẽ phát hiện và cảnh báo lỗi tại thời điểm biên dịch.</p>
+<p>Ví dụ:</p>
+<pre data-role="codeBlock" data-info="ts" class="language-ts ts"><code><span class="token keyword keyword-interface">interface</span> <span class="token class-name">User</span> <span class="token punctuation">{</span>
+  name<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+  id<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword keyword-const">const</span> user<span class="token operator">:</span> User <span class="token operator">=</span> <span class="token punctuation">{</span>
+  username<span class="token operator">:</span> <span class="token string">"Hayes"</span><span class="token punctuation">,</span>
+  id<span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre><p>Lỗi phát sinh do property <code>username</code> không tồn tại trong interface <code>User</code>. Điều này phản ánh nguyên tắc <strong>excess property checking</strong> của TypeScript đối với object literal.</p>
+<hr>
+<h3 id="interface-và-lập-trình-hướng-đối-tượng" ebook-toc-level-3="" heading="Interface và lập trình hướng đối tượng ">Interface và lập trình hướng đối tượng </h3>
+<p>Do JavaScript hỗ trợ <strong>class</strong> và mô hình lập trình hướng đối tượng, TypeScript cho phép interface được sử dụng như một hợp đồng cho class.</p>
+<p>Ví dụ:</p>
+<pre data-role="codeBlock" data-info="ts" class="language-ts ts"><code><span class="token keyword keyword-interface">interface</span> <span class="token class-name">User</span> <span class="token punctuation">{</span>
+  name<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+  id<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword keyword-class">class</span> <span class="token class-name">UserAccount</span> <span class="token punctuation">{</span>
+  name<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+  id<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+
+  <span class="token function">constructor</span><span class="token punctuation">(</span>name<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">,</span> id<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-this">this</span><span class="token punctuation">.</span>name <span class="token operator">=</span> name<span class="token punctuation">;</span>
+    <span class="token keyword keyword-this">this</span><span class="token punctuation">.</span>id <span class="token operator">=</span> id<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword keyword-const">const</span> user<span class="token operator">:</span> User <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token class-name">UserAccount</span><span class="token punctuation">(</span><span class="token string">"Murphy"</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><p>Trong trường hợp này, class <code>UserAccount</code> được xem là <strong>tương thích với interface <code>User</code></strong> vì nó cung cấp đầy đủ các property yêu cầu, bất kể class không khai báo từ khóa <code>implements</code>.</p>
+<hr>
+<h3 id="interface-trong-hàm" ebook-toc-level-3="" heading="Interface trong hàm ">Interface trong hàm </h3>
+<p>Interface cũng có thể được sử dụng để <strong>chú thích kiểu cho tham số và giá trị trả về của function</strong>, giúp tăng tính rõ ràng và an toàn kiểu.</p>
+<p>Ví dụ:</p>
+<pre data-role="codeBlock" data-info="ts" class="language-ts ts"><code><span class="token keyword keyword-function">function</span> <span class="token function">deleteUser</span><span class="token punctuation">(</span>user<span class="token operator">:</span> User<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// ...</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword keyword-function">function</span> <span class="token function">getAdminUser</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> User <span class="token punctuation">{</span>
+  <span class="token comment">// ...</span>
+<span class="token punctuation">}</span>
+</code></pre><p>Cách tiếp cận này đảm bảo rằng dữ liệu truyền vào và trả ra tuân thủ đúng cấu trúc đã được định nghĩa.</p>
+<hr>
+<h3 id="các-kiểu-dữ-liệu-cơ-bản-và-mở-rộng" ebook-toc-level-3="" heading="Các kiểu dữ liệu cơ bản và mở rộng ">Các kiểu dữ liệu cơ bản và mở rộng </h3>
+<p>JavaScript cung cấp một tập nhỏ các <strong>primitive types</strong>, bao gồm:</p>
+<ul>
+<li><code>boolean</code></li>
+<li><code>bigint</code></li>
+<li><code>null</code></li>
+<li><code>number</code></li>
+<li><code>string</code></li>
+<li><code>symbol</code></li>
+<li><code>undefined</code></li>
+</ul>
+<p>Các kiểu này có thể được sử dụng trực tiếp trong interface và type annotation.</p>
+<p>TypeScript mở rộng hệ thống kiểu này bằng cách bổ sung thêm một số kiểu đặc biệt:</p>
+<ul>
+<li><code>any</code>: cho phép mọi giá trị, bỏ qua kiểm tra kiểu</li>
+<li><code>unknown</code>: yêu cầu phải kiểm tra hoặc xác định kiểu trước khi sử dụng</li>
+<li><code>never</code>: biểu thị trường hợp không thể xảy ra</li>
+<li><code>void</code>: thường dùng cho function không trả về giá trị (hoặc trả về <code>undefined</code>)</li>
+</ul>
+<hr>
+<h3 id="interface-và-type-alias" ebook-toc-level-3="" heading="Interface và Type alias ">Interface và Type alias </h3>
+<p>TypeScript cung cấp <strong>hai cú pháp chính để xây dựng kiểu dữ liệu</strong>:</p>
+<ul>
+<li><code>interface</code></li>
+<li><code>type</code></li>
+</ul>
+<p>Trong thực hành chuẩn, <strong>interface nên được ưu tiên sử dụng</strong> do khả năng mở rộng, hợp nhất khai báo (declaration merging) và phù hợp với mô hình thiết kế hướng đối tượng.<br>
+<code>type</code> chỉ nên sử dụng khi cần các tính năng đặc thù mà interface không hỗ trợ, chẳng hạn như union type, intersection type, hoặc mapped type phức tạp.</p>
+<p>Cách phân biệt này giúp duy trì tính nhất quán, khả năng mở rộng và độ rõ ràng của hệ thống kiểu trong các hệ thống TypeScript quy mô lớn.</p>
+</div></body></html>
+    </div>
+  </body>
+</html>

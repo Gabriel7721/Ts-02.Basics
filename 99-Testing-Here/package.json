@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "name": "01.-get-started",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "concurrently \"tsc --watch\" \"node --watch dist/index.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
